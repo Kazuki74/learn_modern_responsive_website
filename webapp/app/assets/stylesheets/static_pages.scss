@@ -19,9 +19,6 @@ html, body {
 	background-image: image-url('bg-home');
 	height: 100%;
 	width: 100%;
-	background-repeat: none;
-	background-size: cover;
-	background-position: center;
 }
 
 #home-content-box {
@@ -40,6 +37,14 @@ html, body {
 	font-size: 55px;
 	margin: 20px 0 20px 0;
 	text-transform: uppercase;
+}
+
+// Parallax
+.bg-parallax {
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 // Buttons
