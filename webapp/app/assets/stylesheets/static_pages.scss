@@ -65,3 +65,20 @@ html, body {
 	background-color: #fff;
 	color: #41464b
 }
+
+// Animations
+#home-cover, #home-heading, #home-btn {
+	animation-duration: .5s;
+}
+
+#home-cover {
+	animation-delay: .1s;
+}
+
+#home-heading {
+	animation-delay: .5s;
+}
+
+#home-btn {
+	animation-delay: .1s;
+}
