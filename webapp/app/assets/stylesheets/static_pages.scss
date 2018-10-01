@@ -81,6 +81,15 @@ p {
 }
 
 // About
+#about-bg-diagonal {
+	background-image: image-url('bg-about');
+	width: 60%;
+	height: 700px;
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+    float: right;
+}
+
 #about-content-box {
 	float: left;
 	height: 700px;
