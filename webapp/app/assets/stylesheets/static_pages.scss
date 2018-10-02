@@ -135,6 +135,17 @@ p {
 	padding-left: 0;
 	padding-right: 0;
 }
+.image-wrapper {
+	overflow: hidden;
+}
+.image-wrapper img{
+	transition: .5s;
+}
+
+.image-wrapper img:hover {
+	transform: scale(1.5)
+}
+
 
 // Content
 .content-box {
