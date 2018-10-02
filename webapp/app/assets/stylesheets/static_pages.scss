@@ -18,6 +18,8 @@ p {
 	font-size: 16px;
 }
 
+
+
 // Home
 #home {
 	height: 100%;
@@ -49,6 +51,9 @@ p {
 	text-transform: uppercase;
 }
 
+
+
+
 // Services
 .service-item {
 	padding: 20px 0;
@@ -79,6 +84,9 @@ p {
 	margin: 0;
 	padding-left: 85px;
 }
+
+
+
 
 // About
 #about-bg-diagonal {
@@ -118,6 +126,16 @@ p {
 #about-desc p {
 	margin-bottom: 30px;
 }
+
+
+
+
+// Work
+.row.no-gutters [class*=col-] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 // Content
 .content-box {
 	padding: 60px 0 60px 0;
