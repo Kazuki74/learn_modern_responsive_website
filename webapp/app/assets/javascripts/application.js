@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require rails-ujs
+//= require magnific-popup/dist/jquery.magnific-popup
 //= require activestorage
 //= require turbolinks
 //= require_tree .
