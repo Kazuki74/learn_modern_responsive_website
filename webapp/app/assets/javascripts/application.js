@@ -10,9 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
+//= require jquery/dist/jquery
 //= require rails-ujs
 //= require magnific-popup/dist/jquery.magnific-popup
+//= require owl.carousel2/dist/owl.carousel
 //= require activestorage
 //= require turbolinks
 //= require_tree .
