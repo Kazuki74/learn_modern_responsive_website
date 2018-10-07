@@ -132,8 +132,6 @@ p {
 }
 
 
-
-
 // Work
 .row.no-gutters [class*=col-] {
 	padding-left: 0;
@@ -176,6 +174,64 @@ h4.team-member-name {
 	margin-top: 5px;
 }
 
+// Testimonials
+
+#testimonial-cover {
+	background-image: image-url('bg-testimonials');
+}
+
+#testimonials .content-box {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+#customers-testimonials {
+	padding: 50px 0;
+}
+
+.testimonial img {
+	max-width: 200px;
+	margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+	border: 0;
+	font-style: italic;
+	padding: 10px;
+	position: relative;
+}
+
+.testimonial blockquote p {
+	color: #fff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+	color: #fff;
+	font-style: normal;
+	line-height: 1;
+	font-size: 60px;
+	position: absolute;
+}
+
+.testimonial blockquote::before {
+	content: "\201C";
+	top: 0;
+	left: 0;
+}
+
+.testimonial blockquote::after {
+	content: "\201D";
+	right: 0;
+}
+
+.testimonial-author p {
+	color: #fff;
+}
+
+.testimonial-author strong {
+	display: block;
+}
+
 // Content
 .content-box {
 	padding: 60px 0 60px 0;
@@ -185,6 +241,10 @@ h4.team-member-name {
 	font-size: 30px;
 	text-align: center;
 	margin: 0 0 30px 0;
+}
+
+.content-title-white h3 {
+	color: #fff;
 }
 
 .content-title-underline {
