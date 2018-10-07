@@ -320,6 +320,8 @@
 	</div>
 </section>
 
+<!-- Testimonials section -->
+
 <section id="testimonials">
 	<div id="testimonial-cover">
 		<div class="content-box">
@@ -330,7 +332,7 @@
 			<div class="container">
 				<div class="row wow bounceInDown">
 					<div class="col-md-12">
-						<div id="customers-testimonials" class="text-center">
+						<div id="customers-testimonials" class="text-center owl-carousel owl-theme">
 							<div class="testimonial">
 								<%= image_tag 'client/client-1', alt: "customer", class: "img-responsive img-circle" %>
 								<blockquote>
@@ -398,10 +400,19 @@
 	});
 	$( () => {
 		$('#team-members').owlCarousel({
-			item: 3,
+			items: 3,
 			autoplay: true,
 			smartSpeed: 700,
 			loop: true,
+		});
+	});
+
+	$( () => {
+		$('#customers-testimonials').owlCarousel({
+			items: 1,
+			autoplay: true,
+			smartSpeed: 700,
+			loop: true
 		});
 	});
 </script>
