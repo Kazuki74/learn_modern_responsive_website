@@ -12,6 +12,8 @@
 //
 //= require jquery/dist/jquery
 //= require rails-ujs
+//= require jquery.counterup/jquery.counterup.min
+//= require waypoints/lib/jquery.waypoints
 //= require magnific-popup/dist/jquery.magnific-popup
 //= require owl.carousel2/dist/owl.carousel
 //= require activestorage
