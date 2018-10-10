@@ -1,0 +1,15 @@
+current directory: /Users/Kakki/Desktop/learn_modern_responsive_website/webapp/vendor/bundle/ruby/2.4.0/gems/bootsnap-1.3.2/ext/bootsnap
+/Users/Kakki/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20181010-35830-elaqjf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Kakki/Desktop/learn_modern_responsive_website/webapp/vendor/bundle/ruby/2.4.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/Kakki/Desktop/learn_modern_responsive_website/webapp/vendor/bundle/ruby/2.4.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/Kakki/Desktop/learn_modern_responsive_website/webapp/vendor/bundle/ruby/2.4.0/gems/bootsnap-1.3.2/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20181010-35830-14pk4sg/bootsnap
