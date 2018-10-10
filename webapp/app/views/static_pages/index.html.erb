@@ -523,7 +523,7 @@
 		<div class="container">
 			<div class="row wow bounceInLeft">
 				<div class="col-md-12">
-					<div id="clients">
+					<div id="clients-list" class="owl-carousel owl-theme">
 						<div class="client">
 							<%= image_tag 'client/logos/logo-1', alt: "client", class: "img-responsive" %>
 						</div>
@@ -555,6 +555,58 @@
 	</div>
 </section>
 
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div id="contact-left">
+					<h3>VESCO</h3>
+					<p>Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipisicing elit. <strong>Ducimus minus assumenda</strong> qui sapiente excepturi earum laboriosam.</p>
+					<div id="contact-info">
+						<address>
+							<storong>Headquaters:</storong><br>
+							<p>Kanagawa, Kawasaki, 211-0007, Japan</p>
+						</address>
+						<div id="phone-fax-email">
+							<p>
+								<strong>Phone:</strong><span>000-0000-0000</span><br>
+								<strong>Phone:</strong><span>000-0000-0000</span><br>
+								<strong>Phone:</strong><span>000-0000-0000</span><br>
+							</p>
+						</div>
+						<ul class="social-list">
+							<li class="social-icon icon-white">
+								<a href="/"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li class="social-icon icon-white">
+								<a href="/"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li class="social-icon icon-white">
+								<a href="/"><i class="fa fa-google-plus"></i></a>
+							</li>
+							<li class="social-icon icon-white">
+								<a href="/"><i class="fa fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div id="contact-right">
+					<h3></h3>
+					<form action="">
+						<input type="text" placeholder="Your name" class="form-control">
+						<input type="text" placeholder="Your email" class="form-control">
+						<textarea type="text" placeholder="Message..." class="form-control"></textarea>
+						<div id="send-btn">
+							<a href="" class="btn btn-lg btn-general btn-white">SEND</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
 
 <br>
@@ -618,6 +670,15 @@
 	$( () => {
 		$('#customers-testimonials').owlCarousel({
 			items: 1,
+			autoplay: true,
+			smartSpeed: 700,
+			loop: true
+		});
+	});
+
+	$( () => {
+		$('#clients-list').owlCarousel({
+			items: 6,
 			autoplay: true,
 			smartSpeed: 700,
 			loop: true
