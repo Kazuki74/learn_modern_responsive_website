@@ -11,6 +11,8 @@
 // about supported directives.
 //
 //= require jquery/dist/jquery
+//= require bootstrap/dist/js/bootstrap
+//= require bootstrap/js/collapse
 //= require rails-ujs
 //= require jquery.counterup/jquery.counterup.min
 //= require waypoints/lib/jquery.waypoints

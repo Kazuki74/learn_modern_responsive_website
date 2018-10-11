@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "bootstrap/dist/css/bootstrap.css";
 @import "font-awesome/scss/font-awesome.scss";
 @import "magnific-popup/dist/magnific-popup.css";
 @import 'owl.carousel2/dist/assets/owl.carousel.css';
@@ -22,6 +23,15 @@ p {
 	font-size: 16px;
 }
 
+
+// header
+.vesco-nav-wrapper {
+	display: flex;
+}
+
+.navbar-header {
+	line-height: 3em;
+}
 
 
 // Home

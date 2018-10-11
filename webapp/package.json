@@ -2,6 +2,7 @@
   "name": "webapp",
   "private": true,
   "dependencies": {
+    "bootstrap": "3",
     "font-awesome": "^4.7.0",
     "jquery.counterup": "^2.1.0",
     "magnific-popup": "^1.1.0",
