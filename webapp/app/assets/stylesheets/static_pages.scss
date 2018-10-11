@@ -364,6 +364,44 @@ form .form-control {
 	color: #fff;
 }
 
+// Footer
+#footer-bottom {
+	background-color: rgba(0,0,0,.1);
+	padding: 30px 0;
+	margin-top: 60px;
+}
+
+#footer-copyrights p {
+	margin: 0;
+	color: #fff;
+}
+
+#footer-menu {
+	font-size: 16px;
+	color: #fff;
+}
+
+#footer-menu ul {
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+}
+
+#footer-menu ul li {
+	list-style: none;
+}
+
+#footer-menu a {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+#footer-menu a:hover {
+	color: #34c6d3;
+}
+
 // Content
 .content-box {
 	padding: 60px 0 60px 0;
