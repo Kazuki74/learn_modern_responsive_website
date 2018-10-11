@@ -1,5 +1,5 @@
 <!-- Header-section -->
-<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top vesco-top-nav">
 	<div class="container-fluid">
 		<div class="vesco-nav-wrapper">
 			<div class="navbar-header">
@@ -672,6 +672,9 @@
 			</div>
 		</div>
 	</div>
+	<a href="#home" id="back-to-top" class="btn btn-sm btn-blue btn-back-to-top">
+		<i class="fa fa-angle-up"></i>
+	</a>
 </footer>
 
 <script>
@@ -720,6 +723,16 @@
 			time: 1000
 		});
 	});
+
+	$( () => {
+		$(window).scroll(() => {
+			if ($(this).scrollTop() > 100) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+	})
 </script>
 
 <noscript>
