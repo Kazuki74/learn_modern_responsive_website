@@ -32,6 +32,16 @@ p {
 	background-color: rgba(0,0,0,0.7);
 	padding: 7px 0;
 }
+
+.vesco-top-nav-transparent {
+	background-color: rgba(0,0,0,0.0);
+	border: none;
+}
+
+.container-fluid {
+	padding-left: 0;
+}
+
 .vesco-nav-wrapper {
 	display: flex;
 	justify-content:space-between;
@@ -53,6 +63,11 @@ p {
 
 .navbar-nav > li > a:hover {
 	color: #34C6D3 !important;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: rgba(0,0,0,.1);
+	border: 1px solid #fff;
 }
 
 // Home

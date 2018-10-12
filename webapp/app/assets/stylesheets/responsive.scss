@@ -1,0 +1,46 @@
+/* Large Device*/
+
+@media (min-width: 1200px) {
+}
+
+/* Medium Device*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.navbar-nav > li > a {
+		font-size: 10px !important;
+	}
+}
+
+/* Small Device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav > li > a {
+		font-size: 5px !important;
+	}
+	#navigation > .container-fluid > .vesco-nav-wrapper {
+		display: block;
+		padding: 0;
+	}
+	#about-bg-diagonal {
+		border-left: 0 !important;
+		border-top: 0 !important;
+		width: 100% !important;
+		height: 350px !important;
+	}
+	#about-content-box {
+		width: 100%;
+		height: 350px !important;
+	}
+
+}
+
+/* Extra Small Device*/
+
+@media (max-width: 480px){
+}
+
+/* Extra Smaller Device*/
+
+@media (max-width: 328px){
+}
+

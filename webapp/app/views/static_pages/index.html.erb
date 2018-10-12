@@ -1,5 +1,5 @@
 <!-- Header-section -->
-<nav role="navigation" class="navbar navbar-inverse navbar-fixed-top vesco-top-nav">
+<nav id="navigation" role="navigation" class="navbar navbar-inverse navbar-fixed-top vesco-top-nav vesco-top-nav-transparent">
 	<div class="container-fluid">
 		<div class="vesco-nav-wrapper">
 			<div class="navbar-header">
@@ -66,7 +66,7 @@
 
 		<div class="container">
 			<div class="row wow fadeInUp">
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="service-item">
 						<div class="service-item-icon">
 							<i class="fa fa-paint-brush fa-3x"></i>
@@ -79,7 +79,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="service-item">
 						<div class="service-item-icon">
 							<i class="fa fa-laptop fa-3x"></i>
@@ -92,7 +92,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="service-item">
 						<div class="service-item-icon">
 							<i class="fa fa-apple fa-3x"></i>
@@ -105,7 +105,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="service-item">
 						<div class="service-item-icon">
 							<i class="fa fa-paint-brush fa-3x"></i>
@@ -118,7 +118,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="service-item">
 						<div class="service-item-icon">
 							<i class="fa fa-laptop fa-3x"></i>
@@ -131,7 +131,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-sm-6">
 					<div class="service-item">
 						<div class="service-item-icon">
 							<i class="fa fa-apple fa-3x"></i>
@@ -726,8 +726,10 @@
 
 	$( () => {
 		$(window).scroll(() => {
-			if ($(this).scrollTop() > 100) {
+			if ($(this).scrollTop() > 700) {
 				$('#back-to-top').fadeIn();
+				$('#navigation').removeClass('vesco-top-nav-transparent')
+
 			} else {
 				$('#back-to-top').fadeOut();
 			}
