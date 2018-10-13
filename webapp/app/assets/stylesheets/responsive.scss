@@ -18,7 +18,6 @@
 		font-size: 5px !important;
 	}
 	#navigation > .container-fluid > .vesco-nav-wrapper {
-		display: block;
 		padding: 0;
 	}
 	#about-bg-diagonal {
@@ -30,6 +29,19 @@
 	#about-content-box {
 		width: 100%;
 		height: 350px !important;
+	}
+	#work > .content-box > .container > .row > .col-sm-3 > .image-wrapper {
+		padding: 0 10px 10px 0;
+	}
+	div#footer-bottom {
+		margin-top: 35px;
+	}
+	#footer-bottom > .container > .row > .col-sm-6 > #footer-copyrights > p {
+		font-size: 1.3rem;
+		vertical-align: middle;
+	}
+	#footer-bottom > .container > .row > .col-sm-6 > #footer-menu {
+		display: none;
 	}
 
 }
