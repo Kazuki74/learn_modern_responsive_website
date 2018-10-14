@@ -106,5 +106,15 @@
 /* Extra Smaller Device*/
 
 @media (max-width: 328px){
+	#navigation > .container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#home > #home-cover > #home-content-box > #home-content-box-inner > #home-heading > h3 {
+		font-size: 2rem;
+	}
+	#home > #home-cover > #home-content-box > #home-content-box-inner > #home-heading > #home-btn > a.btn-general {
+		font-size: 0.5rem;
+	}
 }
 
